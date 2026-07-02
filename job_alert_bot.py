@@ -27,8 +27,7 @@ KEYWORDS = [
     "python dev",
     "sql developer",
     "sql dev",
-    "intern",
-    "internship",
+    
 ]
 
 SEEN_FILE = Path(__file__).parent / "seen_jobs.json"
