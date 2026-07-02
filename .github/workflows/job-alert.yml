@@ -27,7 +27,8 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: python job_alert_bot.py
-     - name: Commit updated seen_jobs.json
+
+      - name: Commit updated seen_jobs.json
         run: |
           git config --global user.name "job-alert-bot"
           git config --global user.email "bot@users.noreply.github.com"
